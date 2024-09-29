@@ -1,6 +1,7 @@
 # Modul ESP8266 with RTC OLED
 ![](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/picture/01.jpg)
 
+![](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/picture/02.png)
 
 ## koneksi
 ### LED Board
