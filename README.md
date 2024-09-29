@@ -30,7 +30,7 @@
 | OLED SDA  | 5    | 
 | OLED SCL  | 4    |
 
-Source bisa dicek 
+### Source code main.c
 1. Blinky LED source di [sini](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/src/01-blinky/main.cpp)
 1. Test Oled di [sini](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/src/02-oled/main.cpp)
 1. Test Wifi di [sini](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/src/03-wifi/main.cpp)
