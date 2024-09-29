@@ -30,6 +30,11 @@
 | OLED SDA  | 5    | 
 | OLED SCL  | 4    |
 
+### ⚠️ Warning
+- Lampu indikator akan tetap "ON" walaupun posisi switch OFF. Agar bisa upload Program pastikan switch digeser ke posisi ON  
+- Pastikan install driver  Serial USB terlebih dahulu. Driver menggunakan chip ch340
+- Hindari Mengeser posisi Joystick ke kanan karena membuat progam reset
+
 ### Source code main.c
 1. Blinky LED source di [sini](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/src/01-blinky/main.cpp)
 1. Test Oled di [sini](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/src/02-oled/main.cpp)
