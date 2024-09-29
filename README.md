@@ -68,6 +68,5 @@ const char *ssid     = "your-wifi";
 const char *password = "your-password";  
 ```
 
-
-
-
+## Referensi
+- https://www.hackster.io/umpheki/esp8266-clock-module-development-board-d6bcfe
