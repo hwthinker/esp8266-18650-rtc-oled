@@ -39,11 +39,34 @@
 
 ### Source code main.c
 1. Blinky LED source di [sini](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/src/01-blinky/main.cpp)
-1. Test Oled di [sini](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/src/02-oled/main.cpp)
-1. Test Wifi di [sini](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/src/03-wifi/main.cpp)
-1. Test pcf8563 di [sini](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/src/04-pcf8563/main.cpp)
-1. Test Joystick di [sini](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/src/05-joystick/main.cpp)
-1. Test Final  di [sini](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/src/06-all/main.cpp)
+2. Test Oled di [sini](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/src/02-oled/main.cpp)
+3. Test Wifi di [sini](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/src/03-wifi/main.cpp)
+
+Untuk Test WIFI pastikan mengubah SSID dan password sesuai dengan acces point ditembat anda pada bagian kode:
+```C
+const char *ssid     = "your-wifi";  
+const char *password = "your-password";  
+```
+Untuk mengetahui IP pastikan cek Serial segera setelah upload program. Pastikan serila monitor dikonfiguras dengan baudrate 115200
+
+
+4. Test pcf8563 di [sini](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/src/04-pcf8563/main.cpp). 
+
+Untuk test pcf8563 Menggunakan terminal serial dengan baudrate 115200 8bit Noparity 1 stop bit
+
+5. Test Joystick di [sini](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/src/05-joystick/main.cpp)
+
+Untuk test Joystick Menggunakan terminal serial dengan baudrate 115200 8bit Noparity 1 stop bit. Bisa juga langsung cek tampilan OLED
+
+6. Test Final  di [sini](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/src/06-all/main.cpp)
+
+Untuk Test Final pastikan mengubah SSID dan password sesuai dengan acces point ditembat anda pada bagian kode:
+
+```C
+const char *ssid     = "your-wifi";  
+const char *password = "your-password";  
+```
+
 
 
 

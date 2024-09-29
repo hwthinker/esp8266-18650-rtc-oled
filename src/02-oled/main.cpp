@@ -23,7 +23,7 @@ void setup() {
   display.setTextSize(1);
   display.setTextColor(WHITE);
   display.setCursor(0, 10);
-  display.println("Hello, world!");
+  display.println("Halo, world!");
   display.setCursor(0, 20);
   display.println("Today is Friday");
   display.setCursor(0, 30);
