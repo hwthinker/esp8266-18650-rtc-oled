@@ -45,8 +45,10 @@ Setting library
 
 Masukkan ke File -> Preference
 ![](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/picture/05.png)
+
 Pada additional manafer Clik edit (kanan bawah)
 ![](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/picture/06.png)
+
 Masukkan Link berikut https://arduino.esp8266.com/stable/package_esp8266com_index.json pada
 ![](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/picture/04.png)
 
