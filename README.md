@@ -47,7 +47,7 @@ Untuk Test WIFI pastikan mengubah SSID dan password sesuai dengan acces point di
 const char *ssid     = "your-wifi";  
 const char *password = "your-password";  
 ```
-Untuk mengetahui IP pastikan cek Serial segera setelah upload program. Pastikan serila monitor dikonfiguras dengan baudrate 115200
+Untuk mengetahui IP pastikan cek Serial segera setelah upload program. Pastikan serial monitor dikonfigurasi dengan baudrate 115200
 
 
 4. Test pcf8563 di [sini](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/src/04-pcf8563/main.cpp). 
