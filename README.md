@@ -39,9 +39,6 @@
 - bila ada masalah Serial USB di windows11, maka gunakan komputer dengan OS windows 10 kebawah
 
 ### Setting Arduino
-Setting board
-![](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/picture/03.png)
-Setting library
 
 Masukkan ke File -> Preference
 
@@ -54,6 +51,11 @@ Pada additional Managaer klik edit (kanan bawah)
 Masukkan Link berikut https://arduino.esp8266.com/stable/package_esp8266com_index.json pada list board
 
 ![](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/picture/04.png)
+
+Setting Board
+
+![](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/picture/03.png)
+Setting library
 
 ### Source code main.c
 1. Blinky LED source di [sini](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/src/01-blinky/main.cpp)
