@@ -33,7 +33,9 @@
 ### ⚠️ Warning
 - Lampu indikator akan tetap "ON" walaupun posisi switch OFF. Agar bisa upload Program pastikan switch digeser ke posisi ON  
 - Pastikan install driver  Serial USB terlebih dahulu. Driver menggunakan chip ch340
-- Hindari Mengeser posisi Joystick ke kanan karena membuat progam reset
+- Hindari Mengeser posisi Joystick ke kanan karena membuat reset 
+- Bila karena suatu keadaan program tidak bisa di program, lepasa dan pasang kabel  yang terhubung ke komputer
+- bila ada masalah Serial USB di windows11, maka gunakan komputer dengan OS windows 10 kebawah
 
 ### Source code main.c
 1. Blinky LED source di [sini](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/src/01-blinky/main.cpp)
