@@ -1,4 +1,3 @@
-#include <Arduino.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
@@ -6,7 +5,6 @@
 #include <ESP8266WiFi.h>
 #include <EasyNTPClient.h>
 #include <WiFiUdp.h>
-#include <SPI.h>
 
 #define SCREEN_WIDTH 128 // OLED display width, in pixels
 #define SCREEN_HEIGHT 64 // OLED display height, in pixels
@@ -22,7 +20,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 // Declaration for the RTC IC
 RTC_PCF8563 rtc;
 // Declaration for NTP Client
-EasyNTPClient ntpClient(udp, "pool.ntp.org", 25200); // EST = 25200 seconds in jakarta indonesia time zone
+EasyNTPClient ntpClient(udp, "pool.ntp.org", -18000); // EST = -18000 seconds; Edit for desired time zone
 
 void setup() {
   Serial.begin(115200);
