@@ -55,7 +55,7 @@ Masukkan Link berikut https://arduino.esp8266.com/stable/package_esp8266com_inde
 Setting Board
 
 ![](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/picture/03.png)
-Setting library
+
 
 ### Source code main.c
 1. Blinky LED source di [sini](https://github.com/hwthinker/esp8266-18650-rtc-oled/blob/main/src/01-blinky/main.cpp)
