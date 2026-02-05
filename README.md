@@ -498,6 +498,18 @@ Untuk test Joystick Menggunakan terminal serial dengan baudrate 115200 8bit Nopa
 
 ## 6. Test Final  
 
+### **Langkah Instalasi EasyNTPClient**
+
+![image-20260205103721657](./assets/image-20260205103721657.png)
+
+1. **Buka Menu Library:** Klik ikon **tumpukan buku** di sebelah kiri untuk masuk ke menu **Library Manager**.
+2. **Cari Library:** Pada kolom pencarian, ketikkan nama library: `EasyNTPClient`.
+3. **Verifikasi & Instal:**
+   - Pastikan nama library-nya adalah **EasyNTPClient by Harsha Alva**.
+   - Klik tombol **INSTALL** pada bagian bawah (nomor **3**) untuk memulai proses pemasangan.
+
+
+
 ```c++
 #include <Wire.h>
 #include <Adafruit_GFX.h>
