@@ -236,8 +236,25 @@ const char *password = "your-password";
 ```
 Untuk mengetahui IP pastikan cek Serial segera setelah upload program. Pastikan serial monitor dikonfigurasi dengan baudrate 115200
 
-
 ## 4. Test pcf8563 
+
+## **Langkah-langkah Instalasi Library**
+
+1. **Buka Library Manager:** Klik ikon **buku** di bilah sisi kiri (seperti yang ditunjukkan oleh angka **1** pada gambar). Ini akan membuka panel Library Manager.
+2. **Cari Nama Library:** Ketik nama library yang ingin Anda cari pada kolom pencarian (angka **2**). Dalam contoh gambar, library yang dicari adalah `rtclib`.
+3. **Pilih Library yang Sesuai:** Hasil pencarian akan muncul di bawahnya. Pastikan Anda memilih library yang dibuat oleh penulis yang benar (angka **3**). Contoh di gambar adalah **RTCLib by Adafruit**, yang sangat populer untuk modul jam (RTC).
+4. **Instal Library:**
+   - Pilih versi library yang diinginkan (biasanya pilih versi terbaru yang muncul otomatis).
+   - Klik tombol **INSTALL** (angka **4**).
+
+------
+
+### **Penting untuk Diperhatikan:**
+
+- **Dependencies:** Jika muncul jendela pop-up yang menanyakan *"Install dependencies?"*, sebaiknya klik **Install All**. Ini memastikan library pendukung lainnya juga ikut terinstal agar library utama berjalan lancar.
+- **Status Terinstal:** Setelah selesai, tulisan tombol akan berubah menjadi "INSTALLED".
+
+![image-20260205102955536](./assets/image-20260205102955536.png)
 
 ```c++
 // Date and time functions using a PCF8563 RTC connected via I2C and Wire lib
