@@ -1,5 +1,8 @@
 # Modul ESP8266 with RTC OLED
+
 ![img](./assets/01.jpg)
+
+Board ESP8266 (ESP-12F) dengan layar OLED 0,96", RTC PCF8563 (baterai coin cell terpisah), slot 18650, dan joystick 4 arah onboard — cocok untuk proyek jam digital, dashboard mini, atau apa pun yang butuh tampilan dan input fisik tanpa komponen tambahan. Panduan ini mencakup enam contoh program bertahap: LED, OLED, WiFi, RTC, joystick, sampai jam NTP lengkap.
 
 ![img](./assets/02.png)
 
