@@ -1,5 +1,22 @@
 # Modul ESP8266 with RTC OLED
 
+<!-- hwthinker-store-links -->
+
+## Beli boardnya & tutorial lengkap
+
+**Board yang dipakai di repo ini tersedia di HwThinker Store:**
+
+- [ESP8266 ESP-12F Wifi Clock RTC 0.96 inch OLED Display 18650 Holder](https://hwthinker.com/produk/da612403-d076-4fb1-88cd-9c4634509be9)
+
+**Tutorial lengkap — langkah bergambar, troubleshooting, dan kode yang sudah diuji:**
+
+- [Modul ESP8266 with RTC OLED — LED, OLED, WiFi, RTC, Joystick, sampai Jam NTP](https://hwthinker.com/tutorials/esp8266-18650-rtc-oled)
+
+Butuh bantuan pemasangan? Sapa kami lewat live chat di [hwthinker.com](https://hwthinker.com) — barang dikirim dari Surabaya, sudah diuji sebelum dikemas.
+
+<!-- /hwthinker-store-links -->
+
+
 ![img](./assets/01.jpg)
 
 Board ESP8266 (ESP-12F) dengan layar OLED 0,96", RTC PCF8563 (baterai coin cell terpisah), slot 18650, dan joystick 4 arah onboard — cocok untuk proyek jam digital, dashboard mini, atau apa pun yang butuh tampilan dan input fisik tanpa komponen tambahan. Panduan ini mencakup enam contoh program bertahap: LED, OLED, WiFi, RTC, joystick, sampai jam NTP lengkap.
